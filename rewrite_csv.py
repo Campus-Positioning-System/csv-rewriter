@@ -1,8 +1,6 @@
 import csv
 
 matches = []
-count_read = 0
-count_write = 0
 with open("AP-Referenzdaten.csv", 'r') as readfile:
     reader = csv.reader(readfile, delimiter=';')
     header = next(reader)
